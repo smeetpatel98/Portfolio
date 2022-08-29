@@ -37,8 +37,8 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    /* background:#111; */
-    background: #150c01;
+    background:#111;
+    /* background: #150c01; */
     overflow-x: hidden;
     padding-left: 35rem;
     margin-top: 25px;
@@ -87,7 +87,8 @@ header{
     z-index: 1000;
     height:100%;
     width:35rem;
-    background:#1a1a1a;
+    background: #111;
+    /* background:#1a1a1a; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -403,8 +404,8 @@ header .navbar ul li a:hover{
     color: white;
 }
 .userimage img {
-    width: 40%;
-    border-radius: 20%;
+    width: 30%;
+    border-radius: 10%;
 }
 
 /* media queries  */
