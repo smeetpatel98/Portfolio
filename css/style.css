@@ -97,6 +97,7 @@ header{
     /* margin-top: 25px; */
     overflow: auto;
 }
+/* Css for scrollbar */
 ::-webkit-scroll {
     width:1.4rem;
 }
@@ -107,7 +108,9 @@ header{
 ::-webkit-scrollbar-thumb{
     background:var(--yellow);
 }
+/* Css for scrollbar */
 
+/* header Css */
 header .user img{
     height:17rem;
     width:17rem;
@@ -163,13 +166,13 @@ header .navbar ul li a:hover{
     z-index: 1000;
     display: none;
 }
-
+/* header Css */
 .home{
     display: flex;
     justify-content: center;
     flex-flow: column;
     padding:0 15rem;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .home h3{
